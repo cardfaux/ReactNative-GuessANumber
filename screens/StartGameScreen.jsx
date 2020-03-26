@@ -38,7 +38,10 @@ const styles = StyleSheet.create({
 		shadowRadius: 6,
 		shadowOpacity: 0.26,
 		// Shadow Properties Only Work On IOS
-		backgroundColor: 'white'
+		elevation: 8,
+		backgroundColor: 'white',
+		padding: 20,
+		borderRadius: 10
 	},
 	buttonContainer: {
 		flexDirection: 'row',
